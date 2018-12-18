@@ -16,7 +16,7 @@
   ## groups table
   |column|Type|Options|
   |------|----|-------|
-  |name|string|index:true, null: false|
+  |name|string|null: false|
 
   ### Association
   - has_many :users, through: :members
