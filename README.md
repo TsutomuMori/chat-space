@@ -16,7 +16,7 @@
   ## groups table
   |column|Type|Options|
   |------|----|-------|
-  |group_name|string|index:true, null: false|
+  |name|string|index:true, null: false|
   |user_id|integer|null: false, foreign_key: true|
 
   ### Association
