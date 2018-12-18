@@ -10,7 +10,8 @@
 
   ### Association
   - has_many :groups, through: :members
-  - has_many messages
+  - has_many :messages
+  - has_many :members
 
   ## groups table
   |column|Type|Options|
@@ -21,6 +22,7 @@
   ### Association
   - has_many :users, through: :members
   - has_many :messages
+  - has_many :members
 
   ## members table
   |column|Type|Options|
